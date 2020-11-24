@@ -1,12 +1,5 @@
 class ServerManager {
 
-    getRecipes(ingredient,renderFunction) {
-
-        $.get(`/recipes/${ingredient}`, function (recipes) {
-            console.log(recipes)
-            renderFunction(recipes)
-        })
-
-    }
+    getRecipes = (ingredient,renderFunction) => $.get(`/recipes/${ingredient}`, recipes => renderFunction(recipes))
 
 }

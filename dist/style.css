@@ -5,23 +5,19 @@ body{
 input{
     width: 30%;
     justify-self: end;
-    text-align:center
+    text-align:center;
+    height: 5vh;
 }
 
-#input-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    justify-content: center;
-}
+
 
 button {
     width: max-content;
-    background-color: #00916E;
+    background-color: #33FFCF;
     border-radius: 5px;
     height: 5vh;
     width: 15%;
     font-weight: 3vh;
-    color: white;
     border: none;
     box-shadow: black 2px 2px 8px;
 }
